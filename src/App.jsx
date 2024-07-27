@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Button from './componets/Button'
 import ButtonSvg from './assets/svg/ButtonSvg'
 import Header from './componets/Header'
+import Hero from './componets/Hero'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
     <Header/>
+    <Hero/>
     </>
   )
 }
